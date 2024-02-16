@@ -38,6 +38,6 @@ class CarModel(models.Model):
             MinValueValidator(100000)
         ]
     )
-    
+
     def __str__(self):
         return self.name  # Return the name as the string representation
